@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "plotgpt"
+version = "0.1.0"
+description = "A tiny ai to help you visualize data"
+authors = ["Stephen Ma <stphnma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.1"
+langchain = "^0.0.150"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+tiktoken = "^0.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
